@@ -1,0 +1,9 @@
+Speech to Text using Speaker Diarization for two different speakers.
+
+speaker 1: I was on the other roommate had to leave before I got half of them by him I guess no way to get a hold back to you alright
+speaker 2: yeah kinda I mean like what what are you I
+speaker 1: have to I have to play with the other guys so yeah go ahead and I with me I can let my people like the one that you were calling me but I go ahead and do it cuz I'm sure he's not work for lunch but they just had them or is it 10 o'clock I want to go ahead and get out with me
+speaker 2: call me I understand
+speaker 1: they probably to talk about Mom and I need to call back or maybe I can just figured after taxes
+speaker 2: advertises it's 110 feet in so I
+speaker 1: guess alright well shoot let me know and then maybe I'll just minus the weather okay well so much for your help like I said no problem alright you have a good day okay bye
