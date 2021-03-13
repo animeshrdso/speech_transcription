@@ -8,3 +8,12 @@ Speech to Text using different available APIs
 * About 8 different APIs (both paid and unpaid) are available on Pythons library known as SpeechRecognition - Install using: !pip install SpeechRecognition
 * Further analysis has to be done to choose API/Open Source Software for transcription of multiple people during a live video call as well as for local languages like Hindi.
 * Further integration of Python transcription file is needed with VidFor.
+
+Speech to Text for Multiple Speakers 
+
+* The APIs available on Python's SpeechRecognition library cannot provide speaker diarization (detection of multiple speakers during video calls).
+* For Speaker Diarization , different cloud based Speech to Text APIs such as Google Cloud Platform and AWS can be used.
+* These can be used to create an API client on respective cloud platforms and then use a bucket for transcription of audio speech files (.wav format) using Speaker diarization for multiple speakers. 
+* The input files can be saved in the buckets and transcribed files can be directly saved separately.
+* [AWS_Speech2Txt_diarization](https://github.com/animeshrdso/speech_transcription/blob/main/AWS_Speech2Txt_diarization.ipynb) and [Google_Speech2Txt_diarization](https://github.com/animeshrdso/speech_transcription/blob/main/Google_Speech2Txt_diarization.ipynb) are initial code implementations for detecting multiple speakers, the files can be run on Colaboratory or Local Server.
+* [Sample_Speaker_Diarization_Results](https://github.com/animeshrdso/speech_transcription/blob/main/Sample%20_Results_Speaker_Diarization_Google.txt) shows an example of how we get the transcribed files using Google's Cloud Based API.
