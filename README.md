@@ -17,3 +17,5 @@ Speech to Text for Multiple Speakers
 * The input files can be saved in the buckets and transcribed files can be directly saved separately.
 * [AWS_Speech2Txt_diarization](https://github.com/animeshrdso/speech_transcription/blob/main/AWS_Speech2Txt_diarization.ipynb) and [Google_Speech2Txt_diarization](https://github.com/animeshrdso/speech_transcription/blob/main/Google_Speech2Txt_diarization.ipynb) are initial code implementations for detecting multiple speakers, the files can be run on Colaboratory or Local Server.
 * [Sample_Speaker_Diarization_Results](https://github.com/animeshrdso/speech_transcription/blob/main/Sample%20_Results_Speaker_Diarization_Google.txt) shows an example of how we get the transcribed files using Google's Cloud Based API.
+
+Run the python file (google_final.py) in final_packet to get the transcription results for input audio files in input folder (Required format: .mp3) in output folder.
