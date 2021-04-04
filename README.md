@@ -19,3 +19,4 @@ Speech to Text for Multiple Speakers
 * [Sample_Speaker_Diarization_Results](https://github.com/animeshrdso/speech_transcription/blob/main/Sample%20_Results_Speaker_Diarization_Google.txt) shows an example of how we get the transcribed files using Google's Cloud Based API.
 
 Run the python file (google_final.py) in final_packet to get the transcription results for input audio files in input folder (Required format: .mp3) in output folder.
+Note: Need to provide a private Google API Credential as a json file in final_packet to create environment.
