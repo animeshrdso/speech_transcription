@@ -18,5 +18,14 @@ Speech to Text for Multiple Speakers
 * [AWS_Speech2Txt_diarization](https://github.com/animeshrdso/speech_transcription/blob/main/AWS_Speech2Txt_diarization.ipynb) and [Google_Speech2Txt_diarization](https://github.com/animeshrdso/speech_transcription/blob/main/Google_Speech2Txt_diarization.ipynb) are initial code implementations for detecting multiple speakers, the files can be run on Colaboratory or Local Server.
 * [Sample_Speaker_Diarization_Results](https://github.com/animeshrdso/speech_transcription/blob/main/Sample%20_Results_Speaker_Diarization_Google.txt) shows an example of how we get the transcribed files using Google's Cloud Based API.
 
-Run the python file (google_final.py) in final_packet to get the transcription results for input audio files in input folder (Required format: .mp3) in output folder.
-Note: Need to provide a private Google API Credential as a json file in final_packet to create environment.
+# How to Run
+
+* Run the python file (google_final.py) in final_packet to get the transcription results in output folder for input audio files in input folder (Required format: .mp3).
+* Note: Need to provide a private Google API Credential as a json file in final_packet folder to create environment, running the .py file will automatically create the environment.
+Dependencies needed to be installed beforehand:
+* Numpy: Install using - pip install numpy
+* Google-Cloud-Speech: Install using - pip install --upgrade google-cloud-speech
+* Google-Gapic-v1 : Install using - pip install gapic-google-cloud-speech-v1
+* Pydub: Install using - pip install pydub
+
+If conda based environment is used to run .py file then similar dependencied are required to install using conda.
